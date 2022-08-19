@@ -96,7 +96,7 @@
                 <img src="{{asset('ProjectTheme/BackendTheme/assets/images/layouts/layout-2.jpg')}}" class="img-fluid img-thumbnail" alt="layout-2">
             </div>
             <div class="form-check form-switch mb-3">
-                <input class="form-check-input theme-choice" type="checkbox" id="dark-mode-switch" data-bsStyle="assets/css/bootstrap-dark.min.css" data-appStyle="assets/css/app-dark.min.css">
+                <input class="form-check-input theme-choice" type="checkbox" id="dark-mode-switch" data-bsStyle="{{asset('ProjectTheme/BackendTheme/assets/css/bootstrap-dark.min.css')}}" data-appStyle="{{asset('ProjectTheme/BackendTheme/assets/css/app-dark.min.css')}}">
                 <label class="form-check-label" for="dark-mode-switch">Dark Mode</label>
             </div>
 
@@ -104,7 +104,7 @@
                 <img src="{{asset('ProjectTheme/BackendTheme/assets/images/layouts/layout-3.jpg')}}" class="img-fluid img-thumbnail" alt="layout-3">
             </div>
             <div class="form-check form-switch mb-5">
-                <input class="form-check-input theme-choice" type="checkbox" id="rtl-mode-switch" data-appStyle="assets/css/app-rtl.min.css">
+                <input class="form-check-input theme-choice" type="checkbox" id="rtl-mode-switch" data-appStyle="{{asset('ProjectTheme/BackendTheme/assets/css/app-rtl.min.css')}}">
                 <label class="form-check-label" for="rtl-mode-switch">RTL Mode</label>
             </div>
 
